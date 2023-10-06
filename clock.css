@@ -1,0 +1,39 @@
+#clock{
+    position: relative;
+    margin: auto;
+    height: 35vw;
+    width: 35vw;
+    
+    background: url(clck.png) no-repeat;
+    background-size: 100%
+}
+
+#hour,#min,#sec{
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 25%;
+    width: 2%;
+    top: 25%;
+    left: 48.7%;
+    
+}
+ #min{
+    height: 30%;
+    width: 2%;
+    top: 20%;
+    left: 48.7%;
+    opacity: 0.8;
+ 
+}
+#sec{
+    height: 35%;
+    width: 1.5%;
+    top: 15%;
+    left: 49%;
+    opacity: 0.6;
+} 
